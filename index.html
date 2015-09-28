@@ -9,12 +9,7 @@
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            body {
-                padding-top: 50px;
-                padding-bottom: 20px;
-            }
-        </style>
+      
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
         <link rel="stylesheet" href="css/main.css">
 
@@ -24,8 +19,27 @@
 
 <div class="container">
         
-    <nav>
-      <img src="img/toplogo.png">
+  <!-- NAVIGATION BAR  -->
+ <img src="img/toplogo.png">
+  <nav class="navbar navbar-default">
+      
+      <ul class="nav navbar-nav">
+       <li> Flights </li>
+       <li> Hotels </li>
+       <li> Cars </li>
+       <li> Packages </li>
+       <li> Deals </li>
+       <li> Flights </li>
+       <li class="glyphicon glyphicon-phone" aria-hidden="true"></li>
+       </ul>
+  </nav>
+
+
+
+
+
+
+      <!-- <img src="img/toplogo.png">
       <ul>
        <li> Flights </li>
        <li> Hotels </li>
@@ -34,7 +48,7 @@
        <li> Deals </li>
        <li> Flights </li>
        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>
-       </ul>
+       </ul> -->
 
     <div="countrydropdown">
          <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
@@ -48,7 +62,8 @@
 
 <!-- Flights Hotels, Cars, Packages/ Radio Buttons !-->
 
-<div class="banner">
+<div class="banner-section">
+<div class ="banner-pic" style=background-image:url("img/first-backgroundpic.png")>
   <div class="slogan">
     <h2> The fastest, easiest way to plan travel</h2>
   </div>   
@@ -77,77 +92,67 @@
      <span> <p> Search now to see flights from top airlines and travel sites. </p> </span>
   </div>
 
-  <div class =""
 
 
-
-
-
-
-
-
-
- 
-
-
-
-</div>
 <!--Forbes Quote !-->
 
 <div class="forbes">
-  <p> "Hipmunk is the best travel site on the web. Period." --<b> Forbes </b> </p>
+  <p> <i>"Hipmunk is the best travel site on the web. Period."</i> -- <b> Forbes </b> </p>
+</div>
+
 </div>
 
 
-
-
 <!--- Why Hipmunk? !-->
-    <div="why">
+<div class="container">
+    <div class="why">
       <h2> Why Hipmunk? </h2>
-
 
       <!--- only have One ROW class and include the other ones !-->
       <div class="row">
-      <div class="col-md-4">
-      <img src ="img/selection.png">
-      <h4> Best Selection </h4>
-      <p> Search thousands of travel websites instantly. We show Amtrak schedules & Airbnb accommodations, too. </p>
-      </div>
-      </div>
+        <div class="col-md-4">
+          <img src ="img/selection.png">
+          <h4> Best Selection </h4>
+          <p> Search thousands of travel websites instantly. We show Amtrak schedules & Airbnb accommodations, too. </p>
+        </div>
+      
 
-      <div class="row">
-      <div class="col-md-4">
-      <img src ="img/price.png">
-      <h4> Compare Prices </h4>
-      <p> Quickly compare prices across flight providers and over 1.2 million hotels and vacation rentals. </p>
-      </div>
-      </div>
+        <div class="col-md-4">
+          <img src ="img/price.png">
+          <h4> Compare Prices </h4>
+          <p> Quickly compare prices across flight providers and over 1.2 million   hotels and vacation rentals. </p>
+        </div>
+      
 
-      <div class="row">
-      <div class="col-md-4">
-      <img src ="img/easy.png">
-      <h4> Easy to Use </h4>
-      <p> See flight results including layovers and duration in a visual chart. Try heatmaps to find accommodations close to shopping, nightlife and more. </p>
+        <div class="col-md-4">
+          <img src ="img/easy.png">
+          <h4> Easy to Use </h4>
+          <p> See flight results including layovers and duration in a visual    hart. Try heatmaps to find accommodations close to shopping,  nightlife  nd more. </p>
+        </div>
+
       </div>
-      </div>
-    </div>
+</div>
+</div>
   
 <!-- Take Hipmunk With You !-->    
+<div class="container">
+    <div style=background-image:url("img/beach-lady.png")>
     <div class="beach-mobile">
-      <img src="img/beach-lady.png">
       <h3> Take Hipmunk With You </h3>
-      <p>Get access to exclusive, mobile-only deals and save up to 60% on hotels. We'll text you the link to download our app! </p>
+      <p>Get access to exclusive, mobile-only deals and save up to 60% <br>on hotels. We'll text you the link to download our app! </p>
+
       <!--if there is a span why isn't it lining up?? !-->
 
       <div class="input-group">
-      <input type="text" class="form-control" placeholder="Enter Your Phone Number">
-      <span class="input-group-btn col-md-6">
+        <input type="text" class="form-control" placeholder="Enter Your Phone Number">
+        <span class="input-group-btn col-md-6">
         <button class="btn btn-default" type="button">Send!</button>
-      </span>
-      <div>
+        </span>
     </div>  
-
+    </div>
+    </div>
   <br>
+
 
 <!--- TOP DESTINATIONS/ FIX THOSE ROWS !-->
 <div class = "top-destinations"> 
@@ -155,157 +160,159 @@
     <p> Stay up to date and check out for deals for these trending destinations. </p>
 </div>  
 
-  <div class="top-row">
-    <div class="row">
+<!-- TOP ROW -->
+
+  <div class="first-row">
+  <div class="row">
     <div class="col-md-4">
       <img src ="img/nyc.png">
-    <h4> New York City Hotels </h4>
+      <h4> New York City Hotels </h4>
    </div>
+   <div class="col-md-4">
+      <img src ="img/sf.png">  
+      <h4> San Francisco Hotels </h4>
    </div>
-    
+     
+    <div class="col-md-4">
+      <img src ="img/lasvegas.png">  
+      <h4> Las Vegas Hotels </h4>
+   </div>
 
-   <div class="row">
-     <div class="col-md-4">
-   <img src ="img/sf.png">  
-   <h4> San Francisco Hotels </h4>
-   </div>
-     </div>
-
-   <div class="row">
-     <div class="col-md-4">
-   <img src ="img/lasvegas.png">  
-   <h4> Las Vegas Hotels </h4>
-   </div>
-     </div>
   </div>
+  </div>
+  
 
+<!-- SECOND ROW -->
 <div class="second-row">
-    <div class="row">
+
     <div class="col-md-4">
       <img src ="img/la.png">
-    <h4> Los Angeles Hotels </h4>
+      <h4> Los Angeles Hotels </h4>
    </div>
-   </div>
+   
     
-
-   <div class="row">
-     <div class="col-md-4">
-   <img src ="img/chicago.png">  
-   <h4> Chicago Hotels </h4>
+    
+   <div class="col-md-4">
+      <img src ="img/chicago.png">  
+      <h4> Chicago Hotels </h4>
    </div>
-     </div>
-
-   <div class="row">
-     <div class="col-md-4">
-   <img src ="img/boston.png">  
-   <h4> Boston Hotels </h4>
+     
+    <div class="col-md-4">
+      <img src ="img/boston.png">  
+      <h4> Boston Hotels </h4>
    </div>
-     </div>
+
   </div>
- </div> 
+
+ <!-- THIRD ROW -->
 
 <div class="third-row">
-    <div class="row">
+
+<div class="row">
     <div class="col-md-4">
       <img src ="img/washington.png">
-    <h4> Washington Hotels </h4>
+      <h4> Washington Hotels </h4>
    </div>
-   </div>
+   
     
-
-   <div class="row">
-     <div class="col-md-4">
-   <img src ="img/seattle.png">  
-   <h4> Seattle Hotels </h4>
+    
+   <div class="col-md-4">
+      <img src ="img/seattle.png">  
+      <h4> Seattle Hotels </h4>
    </div>
-     </div>
-
-   <div class="row">
-     <div class="col-md-4">
-   <img src ="img/denver.png">  
-   <h4> Denver Hotels </h4>
+     
+    <div class="col-md-4">
+      <img src ="img/denver.png">  
+      <h4> Denver Hotels </h4>
    </div>
-     </div>
+
+
   </div>
- </div> 
-
-
-
-
-
+</div>
 
 
 
 
 </div>
     <br>
-      <footer>
-       <div class="logo">
+
+    <!-- Footer -THIS IS FINE. DON'T Touch  -->
+
+<footer class="container">
+  <div class="row">
+
+       <div class="logo col-md-4">
             <img src="img/footlogo.png">
-             <p> &copy; 2015 Hipmunk, Inc. Hipmunk is a trademark of Hipmunk, Inc. </p>
-        <div>
+             <p class="titles-colums"> &copy; 2015 Hipmunk, Inc. Hipmunk is a trademark of Hipmunk, Inc. </p>
+        </div>
 
 
-<!-- Use colums for layout !-->
 
-        <div class="hipmunkcoloum">
+  
+        <div class="hipmunkcoloum col-md-2">
           <ul>
-           <p> Hipmunk </p>
-           <li> Flights </li>
-           <li> Hotels</li>
-           <li> Mobile </li>
-           <li> Deals </li>
-           <li> Hotel Guide Sitemap </li>
-           <li> Flight Guide Sitemap</li>
-           <li> Hotel Properties </li>
+           <p class="titles-colums"> Hipmunk </p>
+           <hr>
+           <li><a href="https://www.hipmunk.com/flights">Flights </a></li>
+           <li><a href="https://www.hipmunk.com/hotels"> Hotels </a></li>
+           <li><a href="https://www.hipmunk.com/mobile">Mobile </a></li>
+           <li><a href="https://www.hipmunk.com/cheap-flights"> Deals </a></li>
+           <li><a href="https://www.hipmunk.com/sitemap/hotel_destination"> Hotel Guide Sitemap </a></li>
+           <li><a href="https://www.hipmunk.com/sitemap/flight_destination"> Flight Guide Sitemap</a></li>
+           <li><a href="https://www.hipmunk.com/sitemap/hotels">Hotel Properties </a></li>
            </ul>
         </div>   
 
           
-        <div class="community">
+        <div class="community col-md-2">
           <ul>
-           <p> Community </p>
-           <li> Facebook </li>
-           <li> Instagram </li>
-           <li> Google+ </li>
-           <li> Pinterest </li>
-           <li> Email </li>
-           <li> TrustYou </li>
+           <p class="titles-colums"> Community </p>
+           <hr>
+           <li><a href="https://twitter.com/#!/thehipmunk"> Twitter </a></li>
+           <li><a href="https://facebook.com/hipmunk"> Facebook </a></li>
+           <li><a href="https://instagram.com/thehipmunk"> Instagram </a></li>
+           <li><a href="https://plus.google.com/u/0/117667619694485931906/posts"> Google+ </a></li>
+           <li><a href="http://pinterest.com/thehipmunk"> Pinterest </a></li>
+           <li><a href="contact@hipmunk.com"> Email </a></li>
+           <li><a href="http://www.trustyou.com/">TrustYou </a></li>
            </ul>
         </div>   
 
 
-        <div class="company">
+        <div class="company col-md-2">
           <ul>
-           <p> Press </p>
-           <li> Blog </li>
-           <li> About Us </li>
-           <li> Jobs </li>
-           <li> Advertise With Us </li>
-           <li> Partner Network </li>
+           <p class="titles-colums"> Company </p>
+           <hr>
+           <li><a href="https://www.hipmunk.com/press"> Press </a></li>
+           <li><a href="http://blog.hipmunk.com/"> Blog </a></li>
+           <li><a href="https://www.hipmunk.com/about"> About Us </a></li>
+           <li><a href="https://www.hipmunk.com/jobs"> Jobs </a></li>
+           <li><a href="ads@hipmunk.com"> Advertise With Us </a></li>
+           <li><a href="https://www.hipmunk.com/nutwork"> Partner Network </a></li>
            </ul>
         </div>  
     
-      <div class="mumbo">
+      <div class="mumbo col-md-2">
           <ul>
-           <p> Fun </p>
-           <li> FAQ </li>
-           <li> Privacy </li>
-           <li> Terms of Service </li>
+           <p class="titles-colums"> Mumbo Jumbo </p>
+           <hr>
+           <li><a href="http://fun.hipmunk.com/HipmunkSpringBreak/"> Fun </a></li>
+           <li><a href="https://www.hipmunk.com/faq"> FAQ </a></li>
+           <li><a href="https://www.hipmunk.com/privacy"> Privacy </a></li>
+           <li><a href="https://www.hipmunk.com/tos"> Terms of Service </a></li>
            </ul>
         </div>  
 
 
 
+  </div>      
+</footer>
+ 
 
 
+    <!-- /container -->        
 
-
-
-
-        
-      </footer>
-    </div> <!-- /container -->        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>

@@ -1,16 +1,75 @@
 
+nav li{
+	list-style: none;
+}
+
+
+
+.banner-section{
+	text-align: center;
+	background-image: url(first-backgroundpic.png);
+}
+
+/*.banner-pic{ 
+	height:100px;
+
+}*/	
+
+
+
+.slogan h2{
+	color:white;
+
+}
+
+.forbes{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	background-color: #5A7991;
+	height: 60px;
+}
+
+.forbes p{
+	padding-top: 15px;
+	color:#fff;
+	font-size: 25px;
+	
+}
+
+.why h2{
+	text-align: center;
+
+}
 
 
 
 
 
 
+.btn-default{
+	background-color: orange;
+}
 
 
+.top-destinations h2{
+	margin-top: 76px;
+	text-align: center;
+}
+
+.top-destinations p{
+	text-align: center;
+}
 
 
+footer li{
+	list-style: none;
+}
 
-
+.titles-colums{
+	margin-bottom: -13px;
+	color: #BFC5C8;
+	font-size: 13px;
+}
 
 
 
