@@ -47,6 +47,20 @@ nav li{
 
 }
 
+
+.tabs{
+	background-color:#245C9B;
+	width: 28%;
+}
+
+.tabs li{
+	font-color:#fff;
+	
+}
+
+
+
+
 .forbes{
 	margin-top: 30px;
 	margin-bottom: 30px;
