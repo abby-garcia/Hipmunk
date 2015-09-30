@@ -7,8 +7,15 @@ nav li{
 
 .banner-section{
 	text-align: center;
-	background-image: url(first-backgroundpic.png);
-}
+	background-image: url(../img/first-backgroundpic.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 700px;
+
+	
+
+	
+	}
 
 /*.banner-pic{ 
 	height:100px;
@@ -27,6 +34,7 @@ nav li{
 	margin-bottom: 30px;
 	background-color: #5A7991;
 	height: 60px;
+	text-align: center;
 }
 
 .forbes p{
@@ -40,6 +48,23 @@ nav li{
 	text-align: center;
 
 }
+
+
+.beach-mobile{
+	text-align: center;
+	background-image: url(../img/beach-lady.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 700px;
+
+
+
+}
+
+
+
+
+
 
 .enter-phone{
 	text-align: center;
