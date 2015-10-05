@@ -72,16 +72,33 @@ nav li{
 	width: 44%;
 }
 
+.white-box{
+	height: 200px;
+	background-color: #fff;
+}
+
+
+
+
 .tabs li{
 	font-color:#fff;
 	
 }
+.tabs a{
+	color:#fff;
+}
+
+.white-box button{
+
+}
+
+
 
 
 
 /*FORBES QUOTE */
 .forbes{
-	margin-top: 426px;
+	margin-top: 235px;
 	margin-bottom: 30px;
 	background-color: #5A7991;
 	opacity:0.8;
