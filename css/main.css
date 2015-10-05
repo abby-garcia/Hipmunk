@@ -46,12 +46,14 @@ nav li{
 
 .nav-pills{
 	font-size: 15px;
+
 }
 
 
 .nav-pills li{
 	font-size: 30px;
 }
+
 
 
 
@@ -67,7 +69,7 @@ nav li{
 
 .tabs{
 	background-color:#245C9B;
-	width: 28%;
+	width: 44%;
 }
 
 .tabs li{
