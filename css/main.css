@@ -70,6 +70,13 @@ nav li{
 .tabs{
 	background-color:#245C9B;
 	width: 44%;
+	margin-top: -75px;
+}
+
+.tabs-chipmunk img{
+	height: 135px;
+	margin-left: 800px;
+
 }
 
 .white-box{
