@@ -1,3 +1,5 @@
+/*NAVIGATION*/
+
 nav{
 	height: 103px;
 	margin-bottom:-19px !important;
@@ -21,6 +23,15 @@ nav li{
 }
 
 
+.login-button{
+	float:right;
+	margin-top: 40px;
+	font-size: 25px;
+
+}
+
+/*BANNER SECTIONS*/
+
 
 .banner-section{
 	text-align: center;
@@ -31,15 +42,21 @@ nav li{
 	margin-bottom: -90px;
 	}
 
+/*BANNER NAV PILLS*/
 
-
-
-.login-button{
-	float:right;
-	margin-top: 40px;
-	font-size: 25px;
-
+.nav-pills{
+	font-size: 15px;
 }
+
+
+.nav-pills li{
+	font-size: 30px;
+}
+
+
+
+
+
 
 
 .slogan h2{
@@ -60,9 +77,9 @@ nav li{
 
 
 
-
+/*FORBES QUOTE */
 .forbes{
-	margin-top: 30px;
+	margin-top: 426px;
 	margin-bottom: 30px;
 	background-color: #5A7991;
 	opacity:0.8;
@@ -77,12 +94,21 @@ nav li{
 	
 }
 
+/*<!--- Why Hipmunk? !-->*/
+
+
+
+.why{
+	margin-top: 156px;
+
+}
 .why h2{
 	text-align: center;
 
 }
 
-
+  
+/*<!-- Take Hipmunk With You !--> */ 
 .beach-mobile{
 	text-align: center;
 	background-image: url(../img/beach-lady.png);
@@ -123,6 +149,7 @@ nav li{
 }
 
 
+/*<!--- TOP DESTINATIONS/ FIX THOSE ROWS !-->*/
 .top-destinations h2{
 	margin-top: 76px;
 	text-align: center;
