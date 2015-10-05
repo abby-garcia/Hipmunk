@@ -99,6 +99,16 @@ nav li{
 
 }
 
+.dropdown{
+	position: absolute;
+	margin-top: 30px;
+	margin-right: 500px;
+	margin-left: 1000px;
+}
+
+.dropdown li{
+	font-size:10px;
+}
 
 
 
@@ -153,6 +163,8 @@ nav li{
 	font-size: 20px;
 	padding-top: 40px;
 }
+
+
 
 
 
