@@ -8,6 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+  <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
+
+
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -82,10 +85,10 @@
     </div>
     <div class="tabs">
       <ul class="nav nav-pills">
-        <li class="active"><a href="#">Flights</a></li>
-        <li><a href="#">Hotels</a></li>
-        <li><a href="#">Cars </a></li>
-        <li><a href="#"> Packages</a></li>
+        <li id="flights" class="active"><a href="#">Flights</a></li>
+        <li id="hotels"><a href="#">Hotels</a></li>
+        <li id="cars"><a href="#">Cars </a></li>
+        <li id="packages"><a href="#"> Packages</a></li>
       </ul>
     </div>
 
@@ -111,6 +114,9 @@
       </div>
 
       <!-- Input and Search Button -->
+
+
+
       <form class="form-inline">
         <div class="form-group">
           <input type="text" class="form-control" id="from" placeholder="From: City or Airport">
@@ -358,8 +364,9 @@
 
 <!-- /container -->    
 
-
-<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" type="text/javascript"></script>
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js" type="text/javascript"></script>
 
 <script src="js/vendor/bootstrap.min.js"></script>
 
@@ -369,11 +376,9 @@
 
 <script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
 
-<script src="js/msdropdown/jquery.dd.min.js"></script>
 
 <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
-<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 
 
 </body>
