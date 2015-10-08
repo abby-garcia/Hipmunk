@@ -108,6 +108,18 @@ nav li{
 	font-size:10px;
 }
 
+/*add extra padding on 107 */
+/*remove padding from nav li selector and adjust it for extra padding */
+/*CSS PROPERTY CURSER for little hand, cursor:pointer; */
+
+/*FLAGS*/
+
+.dropdown li:hover{
+	background-color: #e5f4fc;
+    border-top: 1px solid #ceeaf9;
+    border-bottom: 1px solid #ceeaf9;
+}
+
 
 
 
@@ -207,5 +219,76 @@ footer li{
 	font-size: 13px;
 }
 
+.city-block-container{
+	height:240px;
+	overflow: hidden;
 
+}
+
+
+
+.city-block{
+	position: relative;
+	height: 240px;
+	top:0;  
+	transtion:top 0.5s;  
+	/*helps with our position*/
+
+}
+
+
+
+
+.city-block.open{
+	top:-240px;
+
+}
+
+
+
+.city-header{
+	position: relative;
+	height: 240px;
+	border: 1px solid black;
+
+}
+
+
+
+.city-content{
+	position: relative;
+	height: 240px;
+	border: 1px solid black;
+
+	
+}
+
+/*/*NOTES*/
+/*When you click on on "All Search"
+1. create div - content 
+2. hide it ( css - display:none)
+3. javascript to do onclick reveal - POSITION CSS*/
+
+/*then add modol with BOOTSTRAP*/
+
+
+/*FOR BUTTONS and the states*/
+
+/*They're hidding the hotels 
+
+1. The two boxes are the same size 
+2. Take a look at their 
+3. on click, if it has the clas of , using position relative to 
+4. add the class to the particular class 
+
+5. They are using a css transition to move it 
+
+You need to create the dive that height is 240px high. 
+	Inside create two more that re 240px
+
+ pix. 
+within div you need two divs, equal sizes 
+
+css. OVERFLOW HIDDEN - when you set it to 240px, it will hide the bottom section 
+*/
 

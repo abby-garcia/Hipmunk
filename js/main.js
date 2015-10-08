@@ -1,12 +1,11 @@
-$( document ).ready(function() {
-    $(function() {
-        $( ".autocomplete" ).autocomplete({
-            source: function( request, response ) {
-                $.ajax({
-                    url: "http://www.air-port-codes.com/search/",
-                    jsonp: "callback",
-                    dataType: "jsonp",
-                    data: {
+$(function() {
+    $( ".from" ).autocomplete({
+        source: function( request, response ) {
+            $.ajax({
+                url: "http://www.air-port-codes.com/search/",
+                jsonp: "callback",
+                dataType: "jsonp",
+                data: {
                     term: request.term, // input field value
                     limit: 7, // default is 30
                     size: 3, // default is 0
@@ -26,11 +25,10 @@ $( document ).ready(function() {
                     }
                 }
             });
-},
-select: function( event, ui ) {
+        },
+        select: function( event, ui ) {
             // do something for click event
             console.log(ui.item.code);
         }
     });
-});
 });

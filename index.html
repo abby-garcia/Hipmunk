@@ -10,7 +10,6 @@
 
   <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 
-
   <link rel="stylesheet" href="css/bootstrap.min.css">
 
   <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -45,7 +44,7 @@
    </ul>
    <div class="dropdown row countries">
     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-      United States
+      <img src="flags/flags/16/United States of America.png">
       <span class="caret"></span>
     </button>
     <ul class="dropdown-menu col-md-2" aria-labelledby="dropdownMenu1">
@@ -132,15 +131,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
     </div> 
   </div>
 </div>
@@ -217,8 +207,31 @@
   <div class="first-row">
     <div class="row">
       <div class="col-md-4">
-        <img src ="img/nyc.png">
-        <h4> New York City Hotels </h4>
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/nyc.png">
+            <h4> New York City Hotels </h4>
+
+          </div>
+          <div class="city-content"> 
+
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul>  
+
+
+          </div>
+
+
+
+        </div>
+       </div> 
+
+        
       </div>
       <div class="col-md-4">
         <img src ="img/sf.png">  
@@ -232,6 +245,8 @@
 
     </div>
   </div>
+
+  <!-- Create a carrot and then put the onclick on the carrot in js. toggle between the classes.  -->
   
 
   <!-- SECOND ROW -->
