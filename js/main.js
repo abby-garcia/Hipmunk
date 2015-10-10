@@ -9,7 +9,7 @@ $(function() {
                     term: request.term, // input field value
                     limit: 7, // default is 30
                     size: 3, // default is 0
-                    key: "[API-KEY-HERE]" // dont forget to add your API Key from your air-port-codes account
+                    key: "f04eaa30cd" // dont forget to add your API Key from your air-port-codes account
                 },
                 success: function( data ) {
                     if (data.status) { // success
@@ -31,4 +31,16 @@ $(function() {
             console.log(ui.item.code);
         }
     });
+});
+
+$('.fa-caret-up').on('click', function() {
+    $(this).closest('.city-block').addClass('open')
+
+
+});
+
+$('.fa-caret-down').on('click', function() {
+    $(this).closest('.city-block').removeClass('open')
+
+
 });
