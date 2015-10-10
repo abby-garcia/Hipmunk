@@ -121,6 +121,47 @@ nav li{
     border-bottom: 1px solid #ceeaf9;
 }
 
+
+
+/* ALL SEARCH - NAV BAR */
+
+.all-search{
+	width: 478px;
+	height: 325px;
+}
+
+.all-search h3{
+	color:#DCDCDC;
+	text-align: center;	
+
+}
+
+.fa-search{
+	color:#DCDCDC;
+	margin-left: 184px;
+}
+
+
+.all-search-content{
+	margin-top: 80px;
+	background-color: #F5FFFA;
+}
+
+
+
+.all-search-content p{
+	text-align: center;
+}
+
+.all-search-content button{
+	margin-left: 172px;
+	width: 120px;
+	height: 43px;
+}
+
+
+
+
 /*MODOL - MODOL - MODOL*/
 
 .all-searches h5{
@@ -135,16 +176,10 @@ nav li{
 }
 
 
-
-
-
-
-
-
-.modal-login{
+/*.modal-login{
 	margin-left: 210px;
     margin-top: 10px;
-}
+}*/
 
 
 .modal-login-content{
@@ -164,10 +199,6 @@ nav li{
 	font-size: 22px; 
 }
 
-.fa-times{
-	margin-top: -61px;
-
-}
 
 
 

@@ -39,12 +39,18 @@
      <li> <a href="">Deals </a> </li>
      <li ><a href="" class="glyphicon glyphicon-phone" aria-hidden="true"></a></li>
    </ul>
+
+
+<!-- FLAGS -->
+
+
    <div class="dropdown row countries">
     <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
       <img src="flags/flags/16/United States of America.png">
       <span class="caret"></span>
     </button>
-    <ul class="dropdown-menu col-md-2" aria-labelledby="dropdownMenu1">
+    
+    <ul class="dropdown-menu col-md-2" aria-labelledby="dropdownMenu1" >
       <li> <img src="flags/flags/16/Belgium.png"> Belgium </li>
       <li><img src="flags/flags/16/Canada.png"> Canada </li>
       <li><img src="flags/flags/16/France.png"> France </li>
@@ -57,14 +63,41 @@
   
 
 <!-- All Searches -->
-<div class="all-searches">
-  <h5> All Searches </h5>
+
+<ul class="nav navbar-nav navbar-right">
+
+<div class="btn-group">
+  <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    All Searches <span class="caret"></span>
+  </button>
+    <div class="dropdown-menu all-search">
+    <h3> You have no recent searches. </h3>
+      <i class="fa fa-search fa-5x"></i>
+    
+    <div class="all-search-content">
+      <p> Log in to create trips, save flights & hotels, and
+      <br> 
+      access searches across devices </p>
+      
+      <button type="button" class="btn btn-primary">Log In</button>
+
+    </div>
+    </div>
+
+
+    <!-- <li><a href="#">Link</a></li> -->
+
+<!-- button groups always stack -->
+
+
 
 </div>
 
 
 
+
   <!-- Login/ Modol  -->
+
 
 <div class="login-modal">
 
@@ -107,7 +140,7 @@
 </div>
 </div>
 </div>
-  </nav>    
+</nav>    
 
 
 <!-- Flights Hotels, Cars, Packages/ Radio Buttons !-->
@@ -276,12 +309,36 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/sf.png">
-            <h4> San Fran Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> San Francisco Hotels <i class="fa fa-caret-up pull-right"></i></h4>
 
 
           </div>
           <div class="city-content"> 
-          <h4> San Fran Hotels </h4>
+          <h4> San Francisco Hotels </h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
+      </div>
+
+      <div class="col-md-4">
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/lasvegas.png">
+            <h4> Las Vegas Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+
+
+          </div>
+          <div class="city-content"> 
+          <h4> Las Vegas Hotels </h4>
           <hr>
             <ul>
               <li> Hotel # 1 </li>
@@ -295,11 +352,6 @@
       </div>
 
 
-
-
-
-  
-
     </div>
   </div>
 
@@ -307,57 +359,163 @@
   
 
   <!-- SECOND ROW -->
-  <div class="second-row">
+   <div class="second-row">
+    <div class="row">
+      <div class="col-md-4">
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/la.png">
+            <h4> Los Angeles Hotels <i class="fa fa-caret-up pull-right"></i></h4>
 
-    <div class="col-md-4">
-      <img src ="img/la.png">
-      <h4> Los Angeles Hotels </h4>
+
+          </div>
+          <div class="city-content"> 
+          <h4> Los Angeles Hotels </h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
+      </div>
+
+      <div class="col-md-4">
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/chicago.png">
+            <h4> Chicago Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+
+
+          </div>
+          <div class="city-content"> 
+          <h4> Chicago Hotels </h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
+      </div>
+
+      <div class="col-md-4">
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/boston.png">
+            <h4> Boston Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+
+
+          </div>
+          <div class="city-content"> 
+          <h4> Boston Hotels </h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
+      </div>
+
+
     </div>
-
-    
-    
-    <div class="col-md-4">
-      <img src ="img/chicago.png">  
-      <h4> Chicago Hotels </h4>
-    </div>
-
-    <div class="col-md-4">
-      <img src ="img/boston.png">  
-      <h4> Boston Hotels </h4>
-    </div>
-
   </div>
 
   <!-- THIRD ROW -->
 
-  <div class="third-row">
-
+   <div class="third-row">
     <div class="row">
       <div class="col-md-4">
-        <img src ="img/washington.png">
-        <h4> Washington Hotels </h4>
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/washington.png">
+            <h4> Washington Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+
+
+          </div>
+          <div class="city-content"> 
+          <h4> Washington Hotels </h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
       </div>
 
-
-
       <div class="col-md-4">
-        <img src ="img/seattle.png">  
-        <h4> Seattle Hotels </h4>
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/seattle.png">
+            <h4> Seattle Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+
+
+          </div>
+          <div class="city-content"> 
+          <h4> Seattle Hotels</h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
       </div>
 
       <div class="col-md-4">
-        <img src ="img/denver.png">  
-        <h4> Denver Hotels </h4>
+        <!-- create div that will be for city -->
+       <div class="city-block-container">
+        <div class="city-block"> 
+          <div class="city-header"> 
+            <img src ="img/denver.png">
+            <h4> Denver Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+
+
+          </div>
+          <div class="city-content"> 
+          <h4> Denver Hotels </h4>
+          <hr>
+            <ul>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+              <li> Hotel # 1 </li>
+            </ul> 
+            <i class="fa fa-caret-down pull-right"></i> 
+          </div>
+        </div>
+       </div> 
       </div>
 
 
     </div>
   </div>
-
-
-
-
-</div>
 <br>
 
 <!-- Footer -THIS IS FINE. DON'T Touch  -->
