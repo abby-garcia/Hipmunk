@@ -95,18 +95,16 @@ nav li{
 	color:#fff;
 }
 
-
-
 .dropdown{
-	position: absolute;
-	margin-top: 30px;
-	margin-right: 500px;
-	margin-left: 1000px;
+	margin-right: 64px;
 }
+
+
 
 .dropdown li{
 	font-size:10px;
 	margin-top: 10px;
+	border-right:;
 }
 
 
@@ -124,6 +122,13 @@ nav li{
 
 
 /* ALL SEARCH - NAV BAR */
+
+.all-search-button{
+	border-right: 50px;
+	margin-right: 54px;
+
+}
+
 
 .all-search{
 	width: 478px;
@@ -159,11 +164,6 @@ nav li{
 	height: 43px;
 }
 
-
-
-
-/*MODOL - MODOL - MODOL*/
-
 .all-searches h5{
 	 margin-top: -5px;
 	 margin-left: 90px;
@@ -171,15 +171,23 @@ nav li{
 
 }
 
+
+
+/*MODOL - MODOL - MODOL*/
+
+
+.modal-login{
+	margin-right: 20px;
+}
+
+
+
+
 .modal-dialog{
 	width: 27%;
 }
 
 
-/*.modal-login{
-	margin-left: 210px;
-    margin-top: 10px;
-}*/
 
 
 .modal-login-content{
@@ -200,10 +208,6 @@ nav li{
 }
 
 
-
-
-
-
 .join-socials img{
 	width: 105%;
 }
@@ -213,13 +217,6 @@ nav li{
 .modal-content button{
 	width: 269px;
 }
-
-
-
-
-
-
-
 
 
 
