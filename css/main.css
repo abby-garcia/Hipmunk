@@ -123,17 +123,55 @@ nav li{
 
 /*MODOL - MODOL - MODOL*/
 
-.modal-content{
-	padding:20px;
+.all-searches h5{
+	 margin-top: -5px;
+	 margin-left: 90px;
+
+
 }
 
-.modal-content h3{
-	background-color: #3C5B97;
+.modal-dialog{
+	width: 27%;
+}
+
+
+
+
+
+
+
+
+.modal-login{
+	margin-left: 210px;
+    margin-top: 10px;
+}
+
+
+.modal-login-content{
+	padding:17px;
+	background-color: white;
+}
+
+
+.modal-header {
+	background-color: #3394DE;
+	width: 100%;
+}
+
+
+.modal-header h3{
 	color: white;
-	margin-top: -20px;
-	width:107%;
+	font-size: 22px; 
+}
+
+.fa-times{
+	margin-top: -61px;
 
 }
+
+
+
+
 
 .join-socials img{
 	width: 105%;
