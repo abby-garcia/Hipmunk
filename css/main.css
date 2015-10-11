@@ -309,7 +309,10 @@ nav li{
 	width:100%;
 }
 
-
+.city-content li{
+	text-decoration: none;
+	list-style-type: none;
+}
 
 
 
