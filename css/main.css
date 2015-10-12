@@ -104,7 +104,7 @@ nav li{
 .dropdown li{
 	font-size:10px;
 	margin-top: 10px;
-	border-right:;
+	
 }
 
 
@@ -112,6 +112,11 @@ nav li{
 
 
 /*FLAGS*/
+
+.countries-nav{
+	border-right:30px;
+	border-color: black;
+}
 
 .dropdown li:hover{
 	background-color: #e5f4fc;
@@ -173,7 +178,7 @@ nav li{
 
 
 
-/*MODOL - MODOL - MODOL*/
+/* SIGN IN - MODOL - MODOL - MODOL*/
 
 
 .modal-login{
@@ -188,6 +193,18 @@ nav li{
 }
 
 
+.modal-header h3{
+	color: white;
+	font-size: 30px; 
+}
+
+
+
+.modal-header i{
+	display:inline; 
+	padding-left:51px;
+
+}
 
 
 .modal-login-content{
@@ -202,14 +219,9 @@ nav li{
 }
 
 
-.modal-header h3{
-	color: white;
-	font-size: 22px; 
-}
-
 
 .join-socials img{
-	width: 105%;
+	width: 98%;
 }
 
 
@@ -217,6 +229,13 @@ nav li{
 .modal-content button{
 	width: 269px;
 }
+
+.modal-login-content button{
+	width:450px;
+
+}
+
+
 
 
 
