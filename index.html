@@ -101,14 +101,14 @@
         <div class="modal-header"> 
           <h3 style="display:inline">Sign Up With Hipmunk </h3> 
           
-          <i class="fa fa-times fa-2x"></i> 
+          <i class="fa fa-times fa-2x" data-dismiss="modal"></i>
 
         </div> 
 
         
 
         <div class="join-socials ">
-         <a href="#" > <img src="img/fb.png"> </a>
+         <a href="https://www.facebook.com/login.php?skip_api_login=1&api_key=168149879915203&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fv2.0%2Fdialog%2Foauth%3Fredirect_uri%3Dhttps%253A%252F%252Fs-static.ak.facebook.com%252Fconnect%252Fxd_arbiter%252FYKPvjVoWVGb.js%253Fversion%253D41%2523cb%253Dfd37ce5e%2526domain%253Dwww.hipmunk.com%2526origin%253Dhttps%25253A%25252F%25252Fwww.hipmunk.com%25252Ff20222b888%2526relation%253Dopener%2526frame%253Df3e6815a74%26display%3Dpopup%26scope%3Demail%252Cuser_birthday%252Cuser_location%26response_type%3Dtoken%252Csigned_request%26domain%3Dwww.hipmunk.com%26client_id%3D168149879915203%26ret%3Dlogin%26sdk%3Djoey&cancel_url=https%3A%2F%2Fs-static.ak.facebook.com%2Fconnect%2Fxd_arbiter%2FYKPvjVoWVGb.js%3Fversion%3D41%23cb%3Dfd37ce5e%26domain%3Dwww.hipmunk.com%26origin%3Dhttps%253A%252F%252Fwww.hipmunk.com%252Ff20222b888%26relation%3Dopener%26frame%3Df3e6815a74%26error%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26e2e%3D%257B%257D&display=popup" > <img src="img/fb.png"> </a>
          <a href="#" ><img src="img/google.png"> </a>
        </div>  
        <hr> or 
@@ -187,11 +187,22 @@
         <div class="form-group">
           <input type="email" class="form-control" id="to" placeholder="To: City or Airport">
         </div>
+            <!-- Date Picker -->
+        <div id="sandbox-container">  
+          <div class="input-daterange " id="datepicker">
+          <input type="text" class="input-small"   name="start" />
+          <span class="add-on">to</span>
+          <input type="text" class="input-small" name="end" />
+          </div>
+        </div>  
       </form>
 
 
 
       <button type="button" class="btn btn-warning pull-right"> <i class="fa fa-plane"></i> Search </button>
+
+
+
 
 
 
@@ -300,7 +311,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/sf.png">
-            <h4> San Francisco Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> San Francisco Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -312,7 +323,7 @@
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-San-Francisco-CA_Executive-Hotel-Vintage-Court-509bfd3166edc84661011bbd-Reviews"> Executive Hotel Vintage Court </a> </li>
               <li> <a href="https://www.hipmunk.com/Hotels-in-San-Francisco-CA/San-Francisco-Marriott-Union-Square-509bfe0e66edc8466101c1ee-Reviews"> San Francisco Marriott Union Square </a> </li>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -324,7 +335,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/lasvegas.png">
-            <h4> Las Vegas Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Las Vegas Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -336,7 +347,7 @@
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Las-Vegas-NV_Planet-Hollywood-Resort-Casino-509bfdc366edc84661018f46-Reviews"> Planet Hollywood Resort & Casino </a> </li>
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Las-Vegas-NV_El-Cortez-Hotel-and-Casino-512d5b17a0a9943f34000000-Reviews"> El Cortez Hotel and Casino </a> </li>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -346,7 +357,7 @@
     </div>
   </div>
 
-  <!-- Create a carrot and then put the onclick on the carrot in js. toggle between the classes.  -->
+  <!-- Create a caret and then put the onclick on the carrot in js. toggle between the classes.  -->
   
 
   <!-- SECOND ROW -->
@@ -358,7 +369,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/la.png">
-            <h4> Los Angeles Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Los Angeles Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -370,7 +381,7 @@
               <li> <a href="https://www.hipmunk.com/Hotels-in-Los-Angeles-CA/The-Standard-Downtown-LA-509bfdb966edc8466101898b-Reviews"> The Standard Downtown LA </a> </li>
               <li> <a href="https://www.hipmunk.com/Hotels-in-Los-Angeles-CA/Best-Western-Plus-Dragon-Gate-Inn-509bff4a66edc8466102a306-Reviews"> Best Western Plus Dragon Gate Inn </a> </li>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -382,7 +393,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/chicago.png">
-            <h4> Chicago Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Chicago Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -394,7 +405,7 @@
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Chicago-IL_Millennium-Knickerbocker-509bfdc766edc84661019276-Reviews"> Millennium Knickerbocker </a> </li>
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Chicago-IL_The-Langham-Chicago-525574bd7f2c6c112500012c-Reviews"> The Langham, Chicago </a> </li>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -406,7 +417,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/boston.png">
-            <h4> Boston Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Boston Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -418,7 +429,7 @@
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Boston-MA_Boston-Park-Plaza-509c00df66edc8466103f9bf-Reviews"> Boston Park Plaza </a> </li>
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Boston-MA_Charlesmark-Hotel-509bfd4e66edc84661013399-Reviews"> Charlesmark Hotel </a>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -438,7 +449,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/washington.png">
-            <h4> Washington Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Washington Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -450,7 +461,7 @@
               <li> <a href="https://www.hipmunk.com/Hotels-in-Arlington-VA/The-Westin-Crystal-City-509bfe3266edc8466101dd8e-Reviews"> The Westin Crystal City </a> </li>
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Washington-DC_The-Henley-Park-Hotel-509bfe3566edc8466101e01d-Reviews"> The Henley Park Hotel </a>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -462,7 +473,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/seattle.png">
-            <h4> Seattle Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Seattle Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -474,7 +485,7 @@
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Bellevue-WA_Hotel-Bellevue-509bff4b66edc8466102a3d9-Reviews"> Hotel Bellevue </a> </li>
               <li> <a href="https://www.hipmunk.com/Hotels-in-Bellevue-WA/Hyatt-Regency-Bellevue-509bfc1c66edc84661003ed5-Reviews"> Hyatt Regency Bellevue </a>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 
@@ -486,7 +497,7 @@
         <div class="city-block"> 
           <div class="city-header"> 
             <img src ="img/denver.png">
-            <h4> Denver Hotels <i class="fa fa-caret-up pull-right"></i></h4>
+            <h4> Denver Hotels <i class="fa fa-caret-up fa-2x pull-right"></i></h4>
 
 
           </div>
@@ -498,7 +509,7 @@
               <li> <a href="https://www.hipmunk.com/Independent-Hotels-in-Denver-CO_Hotel-Teatro-509c00fe66edc84661040e40-Reviews"> Hotel Teatro </a> </li>
               <li> <a href="https://www.hipmunk.com/Hotels-in-Denver-CO/The-Ritz-Carlton-Denver-509bfdc366edc84661018fdc-Reviews"> The Ritz-Carlton, Denver </a>
             </ul> 
-            <i class="fa fa-caret-down pull-right"></i> 
+             <i class="fa fa-caret-down fa-3x pull-right"></i> 
           </div>
         </div>
        </div> 

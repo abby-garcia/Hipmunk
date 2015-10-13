@@ -33,6 +33,22 @@ $(function() {
     });
 });
 
+
+
+//  Date Picker
+    $('#sandbox-container .input-daterange').datepicker({
+    startDate: "10/15/2015",
+    endDate: "10/15/2016",
+    todayBtn: "linked",
+    clearBtn: true,
+    orientation: "top auto",
+    autoclose: true,
+    defaultViewDate: { year: 2015, month: 10, day: 31 }
+});
+
+
+
+
 $('.fa-caret-up').on('click', function() {
     $(this).closest('.city-block').addClass('open')
 

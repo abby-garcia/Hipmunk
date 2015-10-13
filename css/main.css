@@ -195,14 +195,14 @@ nav li{
 
 .modal-header h3{
 	color: white;
-	font-size: 30px; 
+	font-size: 21px; 
 }
 
 
 
 .modal-header i{
 	display:inline; 
-	padding-left:51px;
+	padding-left:120px;
 
 }
 
@@ -333,16 +333,6 @@ nav li{
 	list-style-type: none;
 }
 
-
-
-
-
-/*Footer*/
-
-footer li{
-	list-style: none;
-}
-
 .titles-colums{
 	margin-bottom: -13px;
 	color: #BFC5C8;
@@ -352,7 +342,7 @@ footer li{
 .city-block-container{
 	height:240px;
 	overflow: hidden;
-
+	margin-bottom: 10px;
 }
 
 
@@ -379,7 +369,7 @@ footer li{
 .city-header{
 	position: relative;
 	height: 240px;
-	border: 1px solid black;
+	border: 1px solid #D3D3D3;
 
 }
 
@@ -393,32 +383,14 @@ footer li{
 	
 }
 
-/*/*NOTES*/
-/*When you click on on "All Search"
-1. create div - content 
-2. hide it ( css - display:none)
-3. javascript to do onclick reveal - POSITION CSS*/
-
-/*then add modol with BOOTSTRAP*/
+.fa-caret-up{
+	margin-top: -16px;
+}
 
 
-/*FOR BUTTONS and the states*/
+/*Footer*/
 
-/*They're hidding the hotels 
-
-1. The two boxes are the same size 
-2. Take a look at their 
-3. on click, if it has the clas of , using position relative to 
-4. add the class to the particular class 
-
-5. They are using a css transition to move it 
-
-You need to create the dive that height is 240px high. 
-	Inside create two more that re 240px
-
- pix. 
-within div you need two divs, equal sizes 
-
-css. OVERFLOW HIDDEN - when you set it to 240px, it will hide the bottom section 
-*/
+footer li{
+	list-style: none;
+}
 
