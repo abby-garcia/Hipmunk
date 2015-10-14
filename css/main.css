@@ -268,8 +268,39 @@ nav li{
 	position: absolute;
     left: 1000px;
     margin-top: -28px;
+}
+
+.people-counter ul {
+	width: 338px
+
+
 
 }
+
+
+#myform {
+    text-align: center;
+    margin: 2%;
+}
+
+#myform input {
+    position: relative;
+    top: -22px;
+    text-align: center;
+    left:20px;
+
+}
+
+
+
+
+.qty {
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+	input.qtyplus { width:25px; height:25px;}
+	input.qtyminus { width:25px; height:25px;}
 
 
 
