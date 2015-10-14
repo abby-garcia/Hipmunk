@@ -238,6 +238,40 @@ nav li{
 
 }
 
+/*Radio Buttons*/
+
+.radio-buttons{
+	position: relative;
+	 margin-left: -124px;
+	padding-top: 20px;
+}
+
+
+
+/*AIRPORT PICKER*/
+
+.form-inline{
+	position: absolute;
+}
+
+/*DATE PICKER*/
+
+.input-daterange{
+	/*height:10px;*/
+
+
+}
+
+/*PEOPLE COUNTER */
+
+.people-counter{
+	position: absolute;
+    left: 1000px;
+    margin-top: -28px;
+
+}
+
+
 
 
 
