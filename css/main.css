@@ -182,7 +182,10 @@ nav li{
 
 
 .modal-login{
-	margin-right: 20px;
+	position: relative;
+	left:-27px;
+	bottom:13px;
+
 }
 
 

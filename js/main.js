@@ -25,8 +25,8 @@ $(function() {
                     }
                 }
             });
-        },
-        select: function( event, ui ) {
+},
+select: function( event, ui ) {
             // do something for click event
             console.log(ui.item.code);
         }
@@ -36,21 +36,26 @@ $(function() {
 
 
 //  Date Picker
-$('.input-daterange').datepicker({
-                    todayBtn: "linked"
-                });
+$(document).ready(function () {
+
+    $('.input-daterange').datepicker({
+        todayBtn: "linked",
+        orientation: "top left"
+    });
 
 
 
 
-$('.fa-caret-up').on('click', function() {
-    $(this).closest('.city-block').addClass('open')
+    $('.fa-caret-up').on('click', function() {
+        $(this).closest('.city-block').addClass('open')
 
 
-});
+    });
 
-$('.fa-caret-down').on('click', function() {
-    $(this).closest('.city-block').removeClass('open')
+    $('.fa-caret-down').on('click', function() {
+        $(this).closest('.city-block').removeClass('open')
 
+
+    });
 
 });
