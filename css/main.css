@@ -43,7 +43,7 @@ nav li{
 	background-image: url(../img/first-backgroundpic.png);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 700px;
+	height: 497px;
 	margin-bottom: -90px;
 	}
 
@@ -80,7 +80,7 @@ nav li{
 }
 
 .white-box{
-	height: 200px;
+	height: 130px;
 	background-color: #fff;
 }
 
@@ -303,13 +303,18 @@ nav li{
 	input.qtyminus { width:25px; height:25px;}
 
 
-
+/*Airplane Search Button*/
+.plane-search {
+	position: relative;
+    bottom: 28px;
+    right: 88px;
+}
 
 
 
 /*FORBES QUOTE */
 .forbes{
-	margin-top: 235px;
+	margin-top: 72px;
 	margin-bottom: 30px;
 	background-color: #5A7991;
 	opacity:0.8;
@@ -441,15 +446,17 @@ nav li{
 
 }
 
-
+.city-header h4{
+	font-size: 14px;
+	}
 
 .city-content{
 	position: relative;
 	height: 240px;
-	border: 1px solid black;
-
-	
+	border: 1px solid black;	
 }
+
+
 
 .fa-caret-up{
 	margin-top: -16px;
