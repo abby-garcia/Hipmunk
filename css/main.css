@@ -268,7 +268,7 @@ nav li{
 
 .people-counter{
 	position: absolute;
-    left: 1000px;
+    left: 833px;
     margin-top: -28px;
 }
 
@@ -434,8 +434,8 @@ nav li{
 .city-block{
 	position: relative;
 	height: 240px;
-	top:0;  
-	transtion:top 0.5s;  
+	top:0; 
+	transtion: top 0.5s;  
 	/*helps with our position*/
 
 }
@@ -445,6 +445,7 @@ nav li{
 
 .city-block.open{
 	top:-240px;
+	transition: 0.7s;
 
 }
 
@@ -464,13 +465,24 @@ nav li{
 .city-content{
 	position: relative;
 	height: 240px;
-	border: 1px solid black;	
+	border: 1px solid black;
+
 }
 
 
 
 .fa-caret-up{
 	margin-top: -16px;
+}
+
+.fa-caret-down{
+	transition: 0.7s;
+} 
+
+
+/*Footer Border*/
+.footer-border{
+	width:100%;
 }
 
 
