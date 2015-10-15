@@ -63,6 +63,8 @@ nav li{
 
 .slogan h2{
 	color:white;
+	padding-top: 30px;
+
 
 }
 
@@ -314,10 +316,9 @@ nav li{
 
 /*FORBES QUOTE */
 .forbes{
-	margin-top: 72px;
-	margin-bottom: 30px;
+	margin-top: 112px;
 	background-color: #5A7991;
-	opacity:0.8;
+	opacity:0.9;
 	height: 60px;
 	text-align: center;
 }
@@ -342,6 +343,11 @@ nav li{
 
 }
 
+.row{
+	margin-right: -5px;
+    margin-left: 77px;
+
+}
   
 /*<!-- Take Hipmunk With You !--> */ 
 .beach-mobile{
@@ -360,7 +366,8 @@ nav li{
 
 .beach-mobile p{
 	font-size: 20px;
-	padding-top: 40px;
+    padding-top: 24px;
+    padding-bottom: 20px;
 }
 
 
@@ -371,8 +378,8 @@ nav li{
 	text-align: center;
 	margin-left: 37%;
 	width: 26%;
-
-
+	background-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
 }
 /*
 .mobile-button{
@@ -391,10 +398,14 @@ nav li{
 .top-destinations h2{
 	margin-top: 76px;
 	text-align: center;
+	color:#4682B4;
+	font-size: 32px;
+	margin-bottom: 40px;
 }
 
 .top-destinations p{
 	text-align: center;
+	margin-bottom: 23px;
 }
 
 .city-header img{
@@ -469,3 +480,7 @@ footer li{
 	list-style: none;
 }
 
+.titles-colums p{
+	text-align: center;
+	margin-left: 10px;
+}
