@@ -134,27 +134,28 @@ nav li{
 
 /* ALL SEARCH - NAV BAR */
 
-.all-search-button{
+.all-search-button .btn-group .dropdown-toggle{
 	
 	margin-right: 14px;
 	margin-left: 20px;
+	margin-top: -30px;
 	font-size: 16px;
 	
-	margin-top: 0px;
+	
 	padding-left:40px;
 	padding-right:40px;
 
 	border-left: 1px solid lightgrey;
-	line-height: 100px;
+	line-height: 108px;
 
 	
 
 }
 
-.login-button{
+.login-button .login-modal .modal-login{
 	
 	font-size: 16px;
-	margin-top: 0px;
+	margin-top: -26px;
 	margin-right: 40px;
 	padding-left:50px;
 	padding-top: 22px;
