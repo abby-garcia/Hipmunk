@@ -39,6 +39,8 @@ nav li{
 
 }
 
+
+
 /*BANNER SECTIONS*/
 
 
@@ -252,6 +254,13 @@ nav li{
 	width: 100%;
 }
 
+.login-text{
+	position: relative;
+    left: -26px;
+    bottom: 12px;
+}
+
+
 
 
 .join-socials img{
@@ -297,7 +306,7 @@ nav li{
 
 .people-counter{
 	position: absolute;
-    left: 833px;
+    left: 62%;
     margin-top: -28px;
 }
 
