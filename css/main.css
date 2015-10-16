@@ -238,7 +238,7 @@ nav li{
 
 .modal-header i{
 	display:inline; 
-	padding-left:120px;
+	padding-left:13%;
 
 }
 
@@ -252,6 +252,7 @@ nav li{
 .modal-header {
 	background-color: #3394DE;
 	width: 100%;
+
 }
 
 .login-text{
@@ -264,18 +265,28 @@ nav li{
 
 
 .join-socials img{
-	width: 98%;
+	width: 96%;
 }
 
-
+.social-or{
+	margin-left: 10px;
+}
 
 .modal-content button{
 	width: 269px;
 }
 
 .modal-login-content button{
-	width:450px;
+	width:100%;
 
+}
+
+
+.email-me{
+	font-size: 17px;
+}
+.already-account{
+	font-size: 17px;
 }
 
 /*Radio Buttons*/
