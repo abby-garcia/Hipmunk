@@ -51,7 +51,7 @@
         <span class="caret"></span>
       </button>
 
-      <ul class="dropdown-menu col-md-2" aria-labelledby="dropdownMenu1" >
+      <ul class="dropdown-menu col-sm-2" aria-labelledby="dropdownMenu1" >
         <li> <img src="flags/flags/16/Belgium.png"> Belgium </li>
         <li><img src="flags/flags/16/Canada.png"> Canada </li>
         <li><img src="flags/flags/16/France.png"> France </li>
@@ -68,9 +68,9 @@
 
   <li class="all-search-button">
     <div class="btn-group">
-      <button class="btn btn-default btn-lg dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <div class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         All Searches <span class="caret"></span>
-      </button>
+      </div>
       <div class="dropdown-menu all-search">
         <h3> You have no recent searches. </h3>
         <i class="fa fa-search fa-5x"></i>
@@ -92,7 +92,7 @@
     <li class="login-button">
       <div class="login-modal">
 
-        <button type="button" class="modal-login" data-toggle="modal" data-target=".bs-example-modal-sm"> Login </button>
+        <div class="modal-login" data-toggle="modal" data-target=".bs-example-modal-sm"> Login In </div>
 
         <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
           <div class="modal-dialog modal-sm">
@@ -158,7 +158,7 @@
 
     <div class="white-box">
       <div class="radio-buttons row">
-        <form role="form" class="col-md-6">
+        <form role="form" class="col-sm-6">
           <label class="radio-inline">
             <input type="radio" name="optradio"> Roundtrip
           </label>
@@ -172,7 +172,7 @@
             <input type="radio" name="optradio">Price Graph
           </label>
         </form>
-        <p class="col-md-6"> Search now to see flights from top airlines and travel sites. </p> 
+        <p class="col-sm-6"> Search now to see flights from top airlines and travel sites. </p> 
       </div>
 
       <!-- Input and Search Button -->
@@ -197,7 +197,7 @@
           <input type="text" class="input-small" name="end" />
         </div>  
 
-        <!-- People Count -->
+<!-- People Count -->
         <div class="dropdown people-counter">
           <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
           1 person, coach
@@ -210,45 +210,45 @@
                 <li> Adult (18-64) </li> 
                       <span> 
                         <form id='myform' method='POST' action='#'>
-                        <input type='button' value='-' class='qtyminus' field='quantity'/>
-                        <input type='text' name='quantity' value='0' class='qty'/>
-                        <input type='button' value='+' class='qtyplus' field='quantity'/>
+                        <input type='button' value='-' class='qtyminus' field='adult'/>
+                        <input type='text' name='adult' value='0' class='qty'/>
+                        <input type='button' value='+' class='qtyplus' field='adult'/>
                         </form> 
                       </span>
                 <li> Children (2-17) </li>
                       <span> 
                         <form id='myform' method='POST' action='#'>
-                        <input type='button' value='-' class='qtyminus' field='quantity'/>
-                        <input type='text' name='quantity' value='0' class='qty'/>
-                        <input type='button' value='+' class='qtyplus' field='quantity'/>
+                        <input type='button' value='-' class='qtyminus' field='children'/>
+                        <input type='text' name='children' value='0' class='qty'/>
+                        <input type='button' value='+' class='qtyplus' field='children'/>
                         </form> 
                       </span>
                     </span>
                 <li> Senior (65 + ) </li>
                       <span> 
                         <form id='myform' method='POST' action='#'>
-                        <input type='button' value='-' class='qtyminus' field='quantity'/>
-                        <input type='text' name='quantity' value='0' class='qty'/>
-                        <input type='button' value='+' class='qtyplus' field='quantity'/>
+                        <input type='button' value='-' class='qtyminus' field='senior'/>
+                        <input type='text' name='senior' value='0' class='qty'/>
+                        <input type='button' value='+' class='qtyplus' field='senior'/>
                         </form> 
                       </span>
                 <li> Infant (under 2) </li>
                       <span> 
                         <form id='myform' method='POST' action='#'>
-                        <input type='button' value='-' class='qtyminus' field='quantity'/>
-                        <input type='text' name='quantity' value='0' class='qty'/>
-                        <input type='button' value='+' class='qtyplus' field='quantity'/>
+                        <input type='button' value='-' class='qtyminus' field='infant'/>
+                        <input type='text' name='infant' value='0' class='qty'/>
+                        <input type='button' value='+' class='qtyplus' field='infant'/>
                         </form> 
                       </span>
                 <li> Lap Infant (under 2) </li>
                       <span> 
                         <form id='myform' method='POST' action='#'>
-                        <input type='button' value='-' class='qtyminus' field='quantity'/>
-                        <input type='text' name='quantity' value='0' class='qty'/>
-                        <input type='button' value='+' class='qtyplus' field='quantity'/>
+                        <input type='button' value='-' class='qtyminus' field='lap'/>
+                        <input type='text' name='lap' value='0' class='qty'/>
+                        <input type='button' value='+' class='qtyplus' field='lap'/>
                         </form> 
                       </span>
-                <!-- </ul> -->
+               </div> 
           </ul>
         </div>
 
@@ -276,21 +276,21 @@
 
     <!--- only have One ROW class and include the other ones !-->
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <img src ="img/selection.png">
         <h4> Best Selection </h4>
         <p> Search thousands of travel websites instantly. We show Amtrak schedules & Airbnb accommodations, too. </p>
       </div>
       
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <img src ="img/price.png">
         <h4> Compare Prices </h4>
         <p> Quickly compare prices across flight providers and over 1.2 million   hotels and vacation rentals. </p>
       </div>
       
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <img src ="img/easy.png">
         <h4> Easy to Use </h4>
         <p> See flight results including layovers and duration in a visual    hart. Try heatmaps to find accommodations close to shopping,  nightlife  nd more. </p>
@@ -307,12 +307,12 @@
   <h3> Take Hipmunk With You </h3>
   <p>Get access to exclusive, mobile-only deals and save up to 60% <br>on hotels. We'll text you the link to download our app! </p>
 
-  <!--if there is a span why isn't it lining up?? !-->
+  <!-- ENTER PHONE!-->
 
   <div class="input-group enter-phone">
     <input type="text" class="form-control" placeholder="Enter Your Phone Number">
     <span class="input-group-btn mobile-button">
-      <button class="btn btn-warning" type="button">Send!</button>
+      <button class="btn btn-warning phone-button" type="button">Send!</button>
     </span>
   </div>  
 </div>
@@ -331,7 +331,7 @@
 
   <div class="first-row">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <!-- create div that will be for city -->
         <div class="city-block-container">
           <div class="city-block"> 
@@ -355,7 +355,7 @@
         </div> 
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <!-- create div that will be for city -->
         <div class="city-block-container">
           <div class="city-block"> 
@@ -379,7 +379,7 @@
         </div> 
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <!-- create div that will be for city -->
         <div class="city-block-container">
           <div class="city-block"> 
@@ -413,7 +413,7 @@
   <!-- SECOND ROW -->
   <div class="second-row">
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <!-- create div that will be for city -->
         <div class="city-block-container">
           <div class="city-block"> 
@@ -437,7 +437,7 @@
         </div> 
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <!-- create div that will be for city -->
         <div class="city-block-container">
           <div class="city-block"> 
@@ -461,7 +461,7 @@
         </div> 
       </div>
 
-      <div class="col-md-4">
+      <div class="col-sm-4">
         <!-- create div that will be for city -->
         <div class="city-block-container">
           <div class="city-block"> 
@@ -493,7 +493,7 @@
 
     <div class="third-row">
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <!-- create div that will be for city -->
           <div class="city-block-container">
             <div class="city-block"> 
@@ -517,7 +517,7 @@
             </div> 
           </div>
 
-          <div class="col-md-4">
+          <div class="col-sm-4">
             <!-- create div that will be for city -->
             <div class="city-block-container">
               <div class="city-block"> 
@@ -541,7 +541,7 @@
               </div> 
             </div>
 
-            <div class="col-md-4">
+            <div class="col-sm-4">
               <!-- create div that will be for city -->
               <div class="city-block-container">
                 <div class="city-block"> 
@@ -577,7 +577,7 @@
           <footer class="container">
             <div class="row">
 
-             <div class="logo col-md-4">
+             <div class="logo col-sm-4">
               <img src="img/footlogo.png">
               <p class="titles-colums"> &copy; 2015 Hipmunk, Inc. Hipmunk is
               <br>
@@ -587,7 +587,7 @@
 
 
 
-            <div class="hipmunkcoloum col-md-2">
+            <div class="hipmunkcoloum col-sm-2">
               <ul>
                <p class="titles-colums"> Hipmunk </p>
                <hr>
@@ -602,7 +602,7 @@
            </div>   
 
 
-           <div class="community col-md-2">
+           <div class="community col-sm-2">
             <ul>
              <p class="titles-colums"> Community </p>
              <hr>
@@ -617,7 +617,7 @@
          </div>   
 
 
-         <div class="company col-md-2">
+         <div class="company col-sm-2">
           <ul>
            <p class="titles-colums"> Company </p>
            <hr>
@@ -630,7 +630,7 @@
          </ul>
        </div>  
 
-       <div class="mumbo col-md-2">
+       <div class="mumbo col-sm-2">
         <ul>
          <p class="titles-colums"> Mumbo Jumbo </p>
          <hr>

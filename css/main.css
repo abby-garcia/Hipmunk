@@ -12,6 +12,10 @@ nav img{
 
 }
 
+.navbar-default {
+    background-color: #F5F7FA;
+    border-color: #e7e7e7;
+}
 
 
 
@@ -131,8 +135,32 @@ nav li{
 /* ALL SEARCH - NAV BAR */
 
 .all-search-button{
-	border-right: 50px;
-	margin-right: 54px;
+	
+	margin-right: 14px;
+	margin-left: 20px;
+	font-size: 16px;
+	
+	margin-top: 0px;
+	padding-left:40px;
+	padding-right:40px;
+
+	border-left: 1px solid lightgrey;
+	line-height: 100px;
+
+	
+
+}
+
+.login-button{
+	
+	font-size: 16px;
+	margin-top: 0px;
+	margin-right: 40px;
+	padding-left:50px;
+	padding-top: 22px;
+	border-left: 1px solid lightgrey;
+	border-right: 1px solid lightgrey;
+	line-height: 81px;
 
 }
 
@@ -378,13 +406,11 @@ nav li{
 	text-align: center;
 	margin-left: 37%;
 	width: 26%;
-	background-color: rgba(0,0,0,0.4);
-	border-radius: 5px;
+	border-radius: 20px;
+	border: 9px solid #5A7991;
 }
-/*
-.mobile-button{
-	text-align: center;
-}*/
+
+
 
 
 
@@ -496,3 +522,8 @@ footer li{
 	text-align: center;
 	margin-left: 10px;
 }
+
+/*MEDIA QUERIES*/
+@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }
