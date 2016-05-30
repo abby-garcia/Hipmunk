@@ -1,4 +1,9 @@
 /*NAVIGATION*/
+body{
+	min-width: 767px;
+}
+
+
 
 nav{
 	height: 103px;
